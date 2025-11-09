@@ -1,15 +1,17 @@
-import React from 'react';
-import ToDo from './components/TaskList.jsx';
-import './index.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import EditTask from './pages/EditTask';
 
 function App() {
   return (
-    <div className="App">
-      <div className="bg-blue-500 text-white p-4 rounded">
-        ¡Tailwind v4 funcionando!
+    <Router>
+      <div className="min-h-screen">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/edit/:id" element={<EditTask />} />
+        </Routes>
       </div>
-      <ToDo />
-    </div>
+    </Router>
   );
 }
 
