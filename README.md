@@ -27,18 +27,23 @@ envVITE_API_URL=http://localhost:5000
 ⚠️ Importante: No subir los archivos .env al repositorio. El .gitignore ya los excluye automáticamente.
 
 3️⃣ Instalar dependencias y ejecutar el backend
+
 bashcd backend
 npm install
 npm run dev
 El servidor se ejecutará en: http://localhost:5000
+
 4️⃣ Instalar dependencias y ejecutar el frontend
+
 En otra terminal:
+
 bashcd frontend
 npm install
 npm run dev
 La aplicación se ejecutará en: http://localhost:5173
 
 🧩 Estructura del proyecto
+
 challenge-de-ingreso/
 ├── backend/
 │   ├── src/
@@ -55,15 +60,14 @@ challenge-de-ingreso/
 └── package.json
 
 🧰 Tecnologías utilizadas
-🔹 Frontend
 
+🔹 Frontend
 React con Vite
 Hooks: useState, useEffect
 Tailwind CSS
 Comunicación con API mediante fetch
 
 🔹 Backend
-
 Node.js
 Express
 CORS
@@ -89,7 +93,7 @@ Al reiniciar el servidor: Las tareas se pierden (comportamiento esperado)
 ![Pantalla principal](./screenshots/homePage.png)
 
 ### ➕ Editar tarea
-![Crear tarea](./screenshots/editTarea.png)
+![Editar tarea](./screenshots/editTarea.png)
 
 💡 Posibles mejoras (bonus)
 
