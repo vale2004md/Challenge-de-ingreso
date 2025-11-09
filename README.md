@@ -15,7 +15,7 @@ Autor
 
 🚀 Cómo ejecutar la aplicación localmente
 1️⃣ Clonar el repositorio
-bashgit clone https://github.com/vale2004/Challenge-de-ingreso.git
+bashgit clone https://github.com/vale2004md/Challenge-de-ingreso.git
 cd Challenge-de-ingreso
 2️⃣ Configurar variables de entorno
 Antes de ejecutar, crea los archivos .env como se indica:
@@ -27,23 +27,18 @@ envVITE_API_URL=http://localhost:5000
 ⚠️ Importante: No subir los archivos .env al repositorio. El .gitignore ya los excluye automáticamente.
 
 3️⃣ Instalar dependencias y ejecutar el backend
-
 bashcd backend
 npm install
 npm run dev
 El servidor se ejecutará en: http://localhost:5000
-
 4️⃣ Instalar dependencias y ejecutar el frontend
-
 En otra terminal:
-
 bashcd frontend
 npm install
 npm run dev
 La aplicación se ejecutará en: http://localhost:5173
 
 🧩 Estructura del proyecto
-
 challenge-de-ingreso/
 ├── backend/
 │   ├── src/
@@ -60,14 +55,15 @@ challenge-de-ingreso/
 └── package.json
 
 🧰 Tecnologías utilizadas
-
 🔹 Frontend
+
 React con Vite
 Hooks: useState, useEffect
 Tailwind CSS
 Comunicación con API mediante fetch
 
 🔹 Backend
+
 Node.js
 Express
 CORS
@@ -76,11 +72,13 @@ Almacenamiento en memoria (array temporal)
 
 
 ✨ Funcionalidades principales
+
 ✅ Crear nuevas tareas
 ✅ Editar tareas existentes
 ✅ Eliminar tareas
 ✅ Contador de tareas
 ✅ Diseño moderno y responsive
+
 
 ⚠️ Nota: Las tareas se almacenan en memoria (array temporal en el servidor) según los requisitos del challenge.
 
@@ -95,14 +93,6 @@ Al reiniciar el servidor: Las tareas se pierden (comportamiento esperado)
 ### ➕ Editar tarea
 ![Editar tarea](./screenshots/editTarea.png)
 
-💡 Posibles mejoras (bonus)
-
-🔸 Persistencia con SQLite o JSON
-🔸 Filtros por tareas completadas
-🔸 Validación de campos
-🔸 Modo oscuro
-🔸 Tests unitarios y de integración
-🔸 Autenticación de usuarios
 
 
 👩‍💻 Autor
