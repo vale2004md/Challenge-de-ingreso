@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-indigo-500 via-purple-500 to-purple-600 min-h-screen p-5;
+  }
+}
