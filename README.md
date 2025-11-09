@@ -15,10 +15,10 @@ Autor
 
 🚀 Cómo ejecutar la aplicación localmente
 1️⃣ Clonar el repositorio
-bashgit clone https://github.com/<tu-usuario>/<tu-repo>.git
-cd challenge-de-ingreso
+bashgit clone https://github.com/vale2004/Challenge-de-ingreso.git
+cd Challenge-de-ingreso
 2️⃣ Configurar variables de entorno
-Antes de ejecutar, creá los archivos .env como se indica:
+Antes de ejecutar, crea los archivos .env como se indica:
 📦 Backend (/backend/.env)
 envPORT=5000
 💻 Frontend (/frontend/.env)
@@ -59,7 +59,7 @@ challenge-de-ingreso/
 
 React con Vite
 Hooks: useState, useEffect
-CSS / Tailwind CSS
+Tailwind CSS
 Comunicación con API mediante fetch
 
 🔹 Backend
@@ -72,13 +72,11 @@ Almacenamiento en memoria (array temporal)
 
 
 ✨ Funcionalidades principales
-
 ✅ Crear nuevas tareas
 ✅ Editar tareas existentes
 ✅ Eliminar tareas
 ✅ Contador de tareas
 ✅ Diseño moderno y responsive
-
 
 ⚠️ Nota: Las tareas se almacenan en memoria (array temporal en el servidor) según los requisitos del challenge.
 
